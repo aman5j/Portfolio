@@ -2014,3 +2014,171 @@ border-radius: 16px;
 
 
 }
+
+
+
+.social-connect{
+    margin-top:30px;
+}
+
+.social-connect p{
+    font-size:15px;
+    color:#666;
+    margin-bottom:12px;
+    font-weight:500;
+}
+
+.linkedin-box{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    width:430px;
+    max-width:100%;
+
+    background:#fff;
+    text-decoration:none;
+
+    padding:15px 20px;
+
+    border-radius:15px;
+
+    border:1px solid #e5e5e5;
+
+    transition:.35s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+}
+
+.linkedin-box:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#0A66C2;
+
+    box-shadow:0 18px 35px rgba(10,102,194,.18);
+}
+
+.linkedin-box i{
+
+    width:48px;
+    height:48px;
+
+    border-radius:12px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:#0A66C2;
+
+    color:#fff;
+
+    font-size:26px;
+}
+
+.linkedin-box span{
+
+    display:block;
+
+    color:#111;
+
+    font-weight:600;
+
+    font-size:17px;
+}
+
+.linkedin-box small{
+
+    color:#777;
+
+    font-size:13px;
+}
+
+
+
+
+
+
+/* Github Box */
+
+.social-connect{
+    margin-top:30px;
+}
+
+.social-connect p{
+    font-size:15px;
+    color:#666;
+    margin-bottom:12px;
+    font-weight:500;
+}
+
+.social-box{
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    width:430px;
+    max-width:100%;
+
+    background:#fff;
+    text-decoration:none;
+
+    padding:15px 20px;
+    margin-bottom:15px;
+
+    border-radius:15px;
+    border:1px solid #e5e5e5;
+
+    transition:.35s;
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+}
+
+.social-box i{
+    width:48px;
+    height:48px;
+
+    border-radius:12px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:#fff;
+    font-size:24px;
+}
+
+.social-box span{
+    display:block;
+    color:#111;
+    font-weight:600;
+    font-size:17px;
+}
+
+.social-box small{
+    color:#777;
+    font-size:13px;
+}
+
+/* LinkedIn */
+.linkedin-box i{
+    background:#0A66C2;
+}
+
+.linkedin-box:hover{
+    transform:translateY(-6px);
+    border-color:#0A66C2;
+    box-shadow:0 18px 35px rgba(10,102,194,.18);
+}
+
+/* GitHub */
+.github-box i{
+    background:#24292e;
+}
+
+.github-box:hover{
+    transform:translateY(-6px);
+    border-color:#24292e;
+    box-shadow:0 18px 35px rgba(36,41,46,.18);
+}
