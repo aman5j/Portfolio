@@ -1,0 +1,1298 @@
+  <div class="tab">
+
+      <button class="tablinks active" onclick="openTab(event,'All')">
+      All
+      </button>
+
+      <button class="tablinks" onclick="openTab(event,'FullStack')">
+      Full Stack projects
+      </button>
+
+      <button class="tablinks" onclick="openTab(event,'React')">
+      Reactjs projects
+      </button>
+
+      <button class="tablinks" onclick="openTab(event,'Mysql')">
+      MySQL projects
+      </button>
+
+      <button class="tablinks" onclick="openTab(event,'Mongo')">
+      MongoDB projects
+      </button>
+
+  </div>
+
+  <div id="All" class="tabcontent" style="display:block">
+
+    <!-- <h3>All Projects</h3>
+
+    <p>
+    Showing all projects.
+    </p> -->
+
+      <div class="portfolio-container">
+
+
+        <!-- 1. MERN STORE (Already Changed and Correct) -->
+        <div class="portfolio-card" data-category="mysql" >
+          <div class="card-image-wrapper">
+            <img src="image/mern-store-frontend-image.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>MERN STORE</h3>
+              <span class="project-tag">E-Commerce</span>
+            </div>
+            <p class="project-description">
+              A full-featured e-commerce web application for purchasing products. Features modular product listings, cross-component state management, and an optimized MongoDB database layer. and also with Razorpay Payment Gateway integration.
+              <br> To Access Admin Dashboard URL- https://mern-store-jwt.netlify.app/admin
+              <!-- https://mern-store-jwt.netlify.app/admin/login<br> -->
+              Email: admin528@example.com <br>
+              Password: securePassword123
+            </p>
+            <div class="tech-stack-badges">
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://mern-store-jwt.netlify.app/" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/MERN-JWT-AUTH.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+            <!-- 1. Electronic Bazaar (Already Changed and Correct) -->
+        <div class="portfolio-card" data-category="mysql" >
+          <div class="card-image-wrapper">
+            <img src="image/electronic-bazzar-frontend-netlify-app-home.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Electronic Bazaar</h3>
+              <span class="project-tag">E-Commerce</span>
+            </div>
+            <p class="project-description">
+              A full-featured e-commerce web application for purchasing electronic products. Features modular product listings, cross-component state management, and an optimized MySQL database layer. and also with Razorpay Payment Gateway integration.
+              <br> To Access Admin Dashboard URL- https://electronic-bazzar-frontend.netlify.app/adminlogin
+              <br> Dashboard Credentials for Admin Login: <br>
+              Email: ap@gmail.com <br>
+              Password: 12345
+            </p>
+            <div class="tech-stack-badges">
+              <span>React.js</span>
+              <span>Redux</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MySQL</span>
+              <span>Material-UI</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j?tab=repositories" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- 2. Restro-buddy  -->
+      <div class="portfolio-card" data-category="mysql">
+        <div class="card-image-wrapper">
+            <img src="image/restro-buddy-frontend-netlify-app-admindashboard-foodbooking.png" alt="Restro Buddy POS Preview">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h3>Restro Buddy</h3>
+                <span class="project-tag">Restaurant POS</span>
+            </div>
+            <p class="project-description">
+                Point-of-Sale solution engineered to optimize front-office and back-office restaurant operations. Built with reusable UI building blocks and customized for maximum UI performance.
+                <br> To Access Admin Dashboard URL- https://restro-buddy-frontend.netlify.app/adminlogin
+                <br>Credentials for Admin Login: <br>
+                Email: param@gmail.com <br>
+                Password: 6156 <br>
+                
+                <br> To Access SuperAdmin Dashboard URL- https://restro-buddy-frontend.netlify.app/loginpage
+                <br> Credentials for SuperAdmin Login: <br>
+                Email: ss@gmail.com <br>
+                Password: 12345 <br>
+
+            </p>
+            <div class="tech-stack-badges">
+                <span>React.js</span>
+                <span>Redux</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MySQL</span>
+                <span>Material-UI</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://restro-buddy-frontend.netlify.app/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j?tab=repositories" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+
+    <!-- 3. PTMS  -->
+    <div class="portfolio-card" data-category="mongodb">
+        <div class="card-image-wrapper">
+            <img src="image/ptms-u-netlify-app-dashboard.png" alt="Property Tax Management System Preview">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h3>PDMS-U (Property Details Management)</h3>
+                <span class="project-tag">Internship Project</span>
+            </div>
+            <p class="project-description">
+                Designed and developed a centralized system to automate property Details workflows. Implemented secure CRUD operations, validation logic, and a modular backend architecture.
+                <br> Credentials for Admin Login: <br>
+                Email: ap@gmail.com <br>
+                Password: aman@1234
+            </p>
+            <div class="tech-stack-badges">
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://ptms-u.netlify.app/" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/PTMS" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+        </div>
+    </div>
+
+          <!-- 4. Crick Info HTML CSS JQuery -->
+      <div class="portfolio-card" data-category="development">
+        <div class="card-image-wrapper">
+            <img src="image/cricket-info-aman-netlify-app.png" alt="Cric Info Cricket Matches scores Preview">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h3>CRIC INFO (Cricket Matches Scores)</h3>
+                <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+                A real-time cricket matches scores website that features live updates, upcoming fixture cards, and an interactive featured players module with stats pop-ups.
+            </p>
+            <div class="tech-stack-badges">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>jQuery</span>
+            </div>
+            <div class="card-action-links">
+                <a href="https://cricket-info-aman.netlify.app/" target="_blank" class="btn-live">
+                    <i class="fas fa-external-link-alt"></i> Live Preview
+                </a>
+                <a href="https://github.com/aman5j/cricket-website.git" target="_blank" class="btn-repo">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+      <!-- 5. Product Details in MySQL -->
+        <div class="portfolio-card" data-category="mysql" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/productdetail-live-onrender.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Product Details Live</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Products With MySQL Database. This project demonstrates a full-stack implementation of product management, including creating, reading, updating, and deleting product details using a MySQL database.
+              <br>Credentials for Admin Login: <br>
+              Email: ap56@gmail.com <br>
+              Password: 3535
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MySQL</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://productdetail-live.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/productdetail-live.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+      <!-- 5. Movie Details in MySQL -->
+        <div class="portfolio-card" data-category="mysql" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/moviedetails-0byy-onrender.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Movie Details Live</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Movies With MySQL Database. This project demonstrates a full-stack implementation of movie management, including creating, reading, updating, and deleting movie details using a MySQL database.
+              <br>Credentials for Admin Login: <br>
+              Email: ak@gmail.com <br>
+              Password: 123
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MySQL</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://moviedetails-0byy.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/moviedetails.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+      <!-- 7. Product Details in MongoDB -->
+        <div class="portfolio-card" data-category="mongodb" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/productdetails-using-mongodb-onrender-admin.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Product Details Using MongoDB</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Products With MongoDB Database. This project demonstrates a full-stack implementation of product management, including creating, reading, updating, and deleting product details using a MongoDB database.
+              <br> Credentials for Admin Login: <br>
+              Email: ap56@gmail.com <br>
+              Password: 3535
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://productdetails-using-mongodb.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/productdetails_using_mongoDB.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 5. Movie Details using MongoDB -->
+        <div class="portfolio-card" data-category="mongodb" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/moviedetails-using-mongodb-onrender-admin-check-admin.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Movie Details Using MongoDB</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Movies With MongoDB Database. This project demonstrates a full-stack implementation of movie management, including creating, reading, updating, and deleting movie details using a MongoDB database.
+              <br> Credentials for Admin Login: <br>
+              Email: ak@gmail.com <br>
+              Password: 123
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://moviedetails-using-mongodb.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/moviedetails_using_mongoDB.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Employee Management Using Redux React Js -->
+        <!-- <div class="portfolio-card" data-category="design" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/employee-redux-onrender-displayemployees.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Employee Management Using Redux React Js</h3>
+              <span class="project-tag">Redux Task</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Employees With Redux and React Js. This project demonstrates implementation of employee management, including creating, reading, updating, and deleting employee details using Redux and React Js.
+            </p>
+            <div class="tech-stack-badges">
+              <span>React Js</span>
+              <span>Redux</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://employee-redux.onrender.com/displayemployees" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/Employee-Redux.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div> -->
+
+         <!-- 5. Employee Management Using Redux React Js -->
+        <div class="portfolio-card" data-category="design" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/redux-toolkit-and-context-api-shopping.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Redux-Toolkit and ContextAPI Project</h3>
+              <span class="project-tag">Redux-Toolkit</span>
+            </div>
+            <p class="project-description">
+              CART Management of Product With Redux toolkit and context api in React js. This project demonstrates implementation of products management in cart, including show product through fake api, addToCart, RemoveToCart, and Quantity management of products in Cart using Redux toolkit and context api in React Js.
+            </p>
+            <div class="tech-stack-badges">
+              <span>React Js</span>
+              <span>Redux Toolkit</span>
+              <span>Context API</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://redux-toolkit-and-contextapi.netlify.app/shopping" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/redux-toolkit-project.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+    <!-- Portfolio container last div below -->
+    </div>
+
+
+
+  </div>
+
+  <div id="FullStack" class="tabcontent">
+
+    <!-- <h3>Full Stack Projects</h3>
+
+    <p>
+    MERN stack projects list.
+    </p> -->
+
+     <div class="portfolio-container">
+
+
+
+              <!-- 1. MERN STORE (Already Changed and Correct) -->
+        <div class="portfolio-card" data-category="mysql" >
+          <div class="card-image-wrapper">
+            <img src="image/mern-store-frontend-image.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>MERN STORE</h3>
+              <span class="project-tag">E-Commerce</span>
+            </div>
+            <p class="project-description">
+              A full-featured e-commerce web application for purchasing products. Features modular product listings, cross-component state management, and an optimized MongoDB database layer. and also with Razorpay Payment Gateway integration.
+              <br> To Access Admin Dashboard URL- https://mern-store-jwt.netlify.app/admin
+              <!-- https://mern-store-jwt.netlify.app/admin/login<br> -->
+              Email: admin528@example.com <br>
+              Password: securePassword123
+            </p>
+            <div class="tech-stack-badges">
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://mern-store-jwt.netlify.app/" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/MERN-JWT-AUTH.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+            <!-- 1. Electronic Bazaar (Already Changed and Correct) -->
+        <div class="portfolio-card" data-category="mysql" >
+          <div class="card-image-wrapper">
+            <img src="image/electronic-bazzar-frontend-netlify-app-home.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Electronic Bazaar</h3>
+              <span class="project-tag">E-Commerce</span>
+            </div>
+            <p class="project-description">
+              A full-featured e-commerce web application for purchasing electronic products. Features modular product listings, cross-component state management, and an optimized MySQL database layer. and also with Razorpay Payment Gateway integration.
+              <br> Dashboard Credentials for Admin Login: <br>
+              Email: ap@gmail.com <br>
+              Password: 12345
+            </p>
+            <div class="tech-stack-badges">
+              <span>React.js</span>
+              <span>Redux</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MySQL</span>
+              <span>Material-UI</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j?tab=repositories" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- 2. Restro-buddy  -->
+      <div class="portfolio-card" data-category="mysql">
+        <div class="card-image-wrapper">
+            <img src="image/restro-buddy-frontend-netlify-app-admindashboard-foodbooking.png" alt="Restro Buddy POS Preview">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h3>Restro Buddy</h3>
+                <span class="project-tag">Restaurant POS</span>
+            </div>
+            <p class="project-description">
+                Point-of-Sale solution engineered to optimize front-office and back-office restaurant operations. Built with reusable UI building blocks and customized for maximum UI performance.
+                <br>Credentials for Admin Login: <br>
+                Email: param@gmail.com <br>
+                Password: 6156 <br>
+                
+                Credentials for SuperAdmin Login: <br>
+                Email: ss@gmail.com <br>
+                Password: 12345 <br>
+
+            </p>
+            <div class="tech-stack-badges">
+                <span>React.js</span>
+                <span>Redux</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MySQL</span>
+                <span>Material-UI</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://restro-buddy-frontend.netlify.app/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j?tab=repositories" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 3. PTMS  -->
+    <div class="portfolio-card" data-category="mongodb">
+        <div class="card-image-wrapper">
+            <img src="image/ptms-u-netlify-app-dashboard.png" alt="Property Tax Management System Preview">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h3>PDMS-U (Property Details Management)</h3>
+                <span class="project-tag">Internship Project</span>
+            </div>
+            <p class="project-description">
+                Designed and developed a centralized system to automate property Details workflows. Implemented secure CRUD operations, validation logic, and a modular backend architecture.
+                <br> Credentials for Admin Login: <br>
+                Email: ap@gmail.com <br>
+                Password: aman@1234
+            </p>
+            <div class="tech-stack-badges">
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://ptms-u.netlify.app/" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/PTMS" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+        </div>
+    </div>
+
+       
+
+      <!-- 5. Product Details in MySQL -->
+        <div class="portfolio-card" data-category="mysql" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/productdetail-live-onrender.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Product Details Live</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Products With MySQL Database. This project demonstrates a full-stack implementation of product management, including creating, reading, updating, and deleting product details using a MySQL database.
+              <br>Credentials for Admin Login: <br>
+              Email: ap56@gmail.com <br>
+              Password: 3535
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MySQL</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://productdetail-live.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/productdetail-live.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+      <!-- 5. Movie Details in MySQL -->
+        <div class="portfolio-card" data-category="mysql" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/moviedetails-0byy-onrender.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Movie Details Live</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Movies With MySQL Database. This project demonstrates a full-stack implementation of movie management, including creating, reading, updating, and deleting movie details using a MySQL database.
+              <br>Credentials for Admin Login: <br>
+              Email: ak@gmail.com <br>
+              Password: 123
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MySQL</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://moviedetails-0byy.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/moviedetails.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+      <!-- 7. Product Details in MongoDB -->
+        <div class="portfolio-card" data-category="mongodb" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/productdetails-using-mongodb-onrender-admin.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Product Details Using MongoDB</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Products With MongoDB Database. This project demonstrates a full-stack implementation of product management, including creating, reading, updating, and deleting product details using a MongoDB database.
+              <br> Credentials for Admin Login: <br>
+              Email: ap56@gmail.com <br>
+              Password: 3535
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://productdetails-using-mongodb.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/productdetails_using_mongoDB.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 5. Movie Details using MongoDB -->
+        <div class="portfolio-card" data-category="mongodb" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/moviedetails-using-mongodb-onrender-admin-check-admin.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Movie Details Using MongoDB</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Movies With MongoDB Database. This project demonstrates a full-stack implementation of movie management, including creating, reading, updating, and deleting movie details using a MongoDB database.
+              <br> Credentials for Admin Login: <br>
+              Email: ak@gmail.com <br>
+              Password: 123
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://moviedetails-using-mongodb.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/moviedetails_using_mongoDB.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+       
+
+    <!-- Portfolio container last div below -->
+    </div>
+
+
+  </div>
+
+
+
+  <div id="React" class="tabcontent">
+
+    <!-- <h3>React Projects</h3>
+
+    <p>
+    React JS projects list.
+    </p> -->
+
+     <div class="portfolio-container">
+
+
+              <!-- 1. MERN STORE (Already Changed and Correct) -->
+        <div class="portfolio-card" data-category="mysql" >
+          <div class="card-image-wrapper">
+            <img src="image/mern-store-frontend-image.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>MERN STORE</h3>
+              <span class="project-tag">E-Commerce</span>
+            </div>
+            <p class="project-description">
+              A full-featured e-commerce web application for purchasing products. Features modular product listings, cross-component state management, and an optimized MongoDB database layer. and also with Razorpay Payment Gateway integration.
+              <br> To Access Admin Dashboard URL- https://mern-store-jwt.netlify.app/admin
+              <!-- https://mern-store-jwt.netlify.app/admin/login<br> -->
+              Email: admin528@example.com <br>
+              Password: securePassword123
+            </p>
+            <div class="tech-stack-badges">
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://mern-store-jwt.netlify.app/" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/MERN-JWT-AUTH.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+            <!-- 1. Electronic Bazaar (Already Changed and Correct) -->
+        <div class="portfolio-card" data-category="mysql" >
+          <div class="card-image-wrapper">
+            <img src="image/electronic-bazzar-frontend-netlify-app-home.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Electronic Bazaar</h3>
+              <span class="project-tag">E-Commerce</span>
+            </div>
+            <p class="project-description">
+              A full-featured e-commerce web application for purchasing electronic products. Features modular product listings, cross-component state management, and an optimized MySQL database layer. and also with Razorpay Payment Gateway integration.
+              <br> Dashboard Credentials for Admin Login: <br>
+              Email: ap@gmail.com <br>
+              Password: 12345
+            </p>
+            <div class="tech-stack-badges">
+              <span>React.js</span>
+              <span>Redux</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MySQL</span>
+              <span>Material-UI</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j?tab=repositories" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- 2. Restro-buddy  -->
+      <div class="portfolio-card" data-category="mysql">
+        <div class="card-image-wrapper">
+            <img src="image/restro-buddy-frontend-netlify-app-admindashboard-foodbooking.png" alt="Restro Buddy POS Preview">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h3>Restro Buddy</h3>
+                <span class="project-tag">Restaurant POS</span>
+            </div>
+            <p class="project-description">
+                Point-of-Sale solution engineered to optimize front-office and back-office restaurant operations. Built with reusable UI building blocks and customized for maximum UI performance.
+                <br>Credentials for Admin Login: <br>
+                Email: param@gmail.com <br>
+                Password: 6156 <br>
+                
+                Credentials for SuperAdmin Login: <br>
+                Email: ss@gmail.com <br>
+                Password: 12345 <br>
+
+            </p>
+            <div class="tech-stack-badges">
+                <span>React.js</span>
+                <span>Redux</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MySQL</span>
+                <span>Material-UI</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://restro-buddy-frontend.netlify.app/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j?tab=repositories" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 3. PTMS  -->
+    <div class="portfolio-card" data-category="mongodb">
+        <div class="card-image-wrapper">
+            <img src="image/ptms-u-netlify-app-dashboard.png" alt="Property Tax Management System Preview">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h3>PDMS-U (Property Details Management)</h3>
+                <span class="project-tag">Internship Project</span>
+            </div>
+            <p class="project-description">
+                Designed and developed a centralized system to automate property Details workflows. Implemented secure CRUD operations, validation logic, and a modular backend architecture.
+                <br> Credentials for Admin Login: <br>
+                Email: ap@gmail.com <br>
+                Password: aman@1234
+            </p>
+            <div class="tech-stack-badges">
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://ptms-u.netlify.app/" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/PTMS" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+        </div>
+    </div>
+
+      
+
+      
+      
+        <!-- 5. Employee Management Using Redux React Js -->
+        <!-- <div class="portfolio-card" data-category="design" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/employee-redux-onrender-displayemployees.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Employee Management Using Redux React Js</h3>
+              <span class="project-tag">Redux Task</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Employees With Redux and React Js. This project demonstrates implementation of employee management, including creating, reading, updating, and deleting employee details using Redux and React Js.
+            </p>
+            <div class="tech-stack-badges">
+              <span>React Js</span>
+              <span>Redux</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://employee-redux.onrender.com/displayemployees" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/Employee-Redux.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div> -->
+
+         <!-- 5. Employee Management Using Redux React Js -->
+        <div class="portfolio-card" data-category="design" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/redux-toolkit-and-context-api-shopping.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Redux-Toolkit and ContextAPI Project</h3>
+              <span class="project-tag">Redux-Toolkit</span>
+            </div>
+            <p class="project-description">
+              CART Management of Product With Redux toolkit and context api in React js. This project demonstrates implementation of products management in cart, including show product through fake api, addToCart, RemoveToCart, and Quantity management of products in Cart using Redux toolkit and context api in React Js.
+            </p>
+            <div class="tech-stack-badges">
+              <span>React Js</span>
+              <span>Redux Toolkit</span>
+              <span>Context API</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://redux-toolkit-and-contextapi.netlify.app/shopping" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/redux-toolkit-project.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+    <!-- Portfolio container last div below -->
+    </div>
+
+  </div>
+
+
+  <div id="Mysql" class="tabcontent">
+
+    <!-- <h3>MySQL Projects</h3>
+
+    <p>
+    Database projects list.
+    </p> -->
+
+     <div class="portfolio-container">
+            <!-- 1. Electronic Bazaar (Already Changed and Correct) -->
+        <div class="portfolio-card" data-category="mysql" >
+          <div class="card-image-wrapper">
+            <img src="image/electronic-bazzar-frontend-netlify-app-home.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Electronic Bazaar</h3>
+              <span class="project-tag">E-Commerce</span>
+            </div>
+            <p class="project-description">
+              A full-featured e-commerce web application for purchasing electronic products. Features modular product listings, cross-component state management, and an optimized MySQL database layer. and also with Razorpay Payment Gateway integration.
+              <br> Dashboard Credentials for Admin Login: <br>
+              Email: ap@gmail.com <br>
+              Password: 12345
+            </p>
+            <div class="tech-stack-badges">
+              <span>React.js</span>
+              <span>Redux</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MySQL</span>
+              <span>Material-UI</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j?tab=repositories" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- 2. Restro-buddy  -->
+      <div class="portfolio-card" data-category="mysql">
+        <div class="card-image-wrapper">
+            <img src="image/restro-buddy-frontend-netlify-app-admindashboard-foodbooking.png" alt="Restro Buddy POS Preview">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h3>Restro Buddy</h3>
+                <span class="project-tag">Restaurant POS</span>
+            </div>
+            <p class="project-description">
+                Point-of-Sale solution engineered to optimize front-office and back-office restaurant operations. Built with reusable UI building blocks and customized for maximum UI performance.
+                <br>Credentials for Admin Login: <br>
+                Email: param@gmail.com <br>
+                Password: 6156 <br>
+                
+                Credentials for SuperAdmin Login: <br>
+                Email: ss@gmail.com <br>
+                Password: 12345 <br>
+
+            </p>
+            <div class="tech-stack-badges">
+                <span>React.js</span>
+                <span>Redux</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MySQL</span>
+                <span>Material-UI</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://restro-buddy-frontend.netlify.app/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j?tab=repositories" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+        </div>
+    </div>
+
+
+       
+      <!-- 5. Product Details in MySQL -->
+        <div class="portfolio-card" data-category="mysql" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/productdetail-live-onrender.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Product Details Live</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Products With MySQL Database. This project demonstrates a full-stack implementation of product management, including creating, reading, updating, and deleting product details using a MySQL database.
+              <br>Credentials for Admin Login: <br>
+              Email: ap56@gmail.com <br>
+              Password: 3535
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MySQL</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://productdetail-live.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/productdetail-live.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+      <!-- 5. Movie Details in MySQL -->
+        <div class="portfolio-card" data-category="mysql" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/moviedetails-0byy-onrender.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Movie Details Live</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Movies With MySQL Database. This project demonstrates a full-stack implementation of movie management, including creating, reading, updating, and deleting movie details using a MySQL database.
+              <br>Credentials for Admin Login: <br>
+              Email: ak@gmail.com <br>
+              Password: 123
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MySQL</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://moviedetails-0byy.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/moviedetails.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+      
+        
+       
+
+    <!-- Portfolio container last div below -->
+    </div>
+
+  </div>
+
+
+  <div id="Mongo" class="tabcontent">
+
+    <!-- <h3>MongoDB Projects</h3>
+
+    <p>
+    MongoDB projects list.
+    </p> -->
+
+     <div class="portfolio-container">
+
+
+              <!-- 1. MERN STORE (Already Changed and Correct) -->
+        <div class="portfolio-card" data-category="mysql" >
+          <div class="card-image-wrapper">
+            <img src="image/mern-store-frontend-image.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>MERN STORE</h3>
+              <span class="project-tag">E-Commerce</span>
+            </div>
+            <p class="project-description">
+              A full-featured e-commerce web application for purchasing products. Features modular product listings, cross-component state management, and an optimized MongoDB database layer. and also with Razorpay Payment Gateway integration.
+              <br> To Access Admin Dashboard URL- https://mern-store-jwt.netlify.app/admin
+              <!-- https://mern-store-jwt.netlify.app/admin/login<br> -->
+              Email: admin528@example.com <br>
+              Password: securePassword123
+            </p>
+            <div class="tech-stack-badges">
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://mern-store-jwt.netlify.app/" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/MERN-JWT-AUTH.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+    <!-- 3. PTMS  -->
+    <div class="portfolio-card" data-category="mongodb">
+        <div class="card-image-wrapper">
+            <img src="image/ptms-u-netlify-app-dashboard.png" alt="Property Tax Management System Preview">
+        </div>
+        <div class="card-content">
+            <div class="card-header">
+                <h3>PDMS-U (Property Details Management)</h3>
+                <span class="project-tag">Internship Project</span>
+            </div>
+            <p class="project-description">
+                Designed and developed a centralized system to automate property Details workflows. Implemented secure CRUD operations, validation logic, and a modular backend architecture.
+                <br> Credentials for Admin Login: <br>
+                Email: ap@gmail.com <br>
+                Password: aman@1234
+            </p>
+            <div class="tech-stack-badges">
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://ptms-u.netlify.app/" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/PTMS" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+        </div>
+    </div>
+
+       
+
+      <!-- 7. Product Details in MongoDB -->
+        <div class="portfolio-card" data-category="mongodb" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/productdetails-using-mongodb-onrender-admin.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Product Details Using MongoDB</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Products With MongoDB Database. This project demonstrates a full-stack implementation of product management, including creating, reading, updating, and deleting product details using a MongoDB database.
+              <br> Credentials for Admin Login: <br>
+              Email: ap56@gmail.com <br>
+              Password: 3535
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://productdetails-using-mongodb.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/productdetails_using_mongoDB.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 5. Movie Details using MongoDB -->
+        <div class="portfolio-card" data-category="mongodb" href="https://electronic-bazzar-frontend.netlify.app/home" target="_blank">
+          <div class="card-image-wrapper">
+            <img src="image/moviedetails-using-mongodb-onrender-admin-check-admin.png">
+          </div>
+          <div class="card-content">
+            <div class="card-header">
+              <h3>Movie Details Using MongoDB</h3>
+              <span class="project-tag">Personal Project</span>
+            </div>
+            <p class="project-description">
+              CRUD Management of Movies With MongoDB Database. This project demonstrates a full-stack implementation of movie management, including creating, reading, updating, and deleting movie details using a MongoDB database.
+              <br> Credentials for Admin Login: <br>
+              Email: ak@gmail.com <br>
+              Password: 123
+            </p>
+            <div class="tech-stack-badges">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>EJS</span>
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="card-action-links">
+              <a href="https://moviedetails-using-mongodb.onrender.com/admin/adminlogin" target="_blank" class="btn-live">
+                <i class="fas fa-external-link-alt"></i> Live Preview
+              </a>
+              <a href="https://github.com/aman5j/moviedetails_using_mongoDB.git" target="_blank" class="btn-repo">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+       
+
+    <!-- Portfolio container last div below -->
+    </div>
+
+
+  </div>
